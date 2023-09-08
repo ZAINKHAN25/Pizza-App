@@ -42,17 +42,21 @@ function Menu() {
     };
 
     return (
-        <div className='menudiv'>
+        <div className='displayflex'>
             <input
                 type='text'
                 placeholder='Enter a dish name and press Enter'
                 value={dishName}
                 onChange={handleInputChange}
                 onKeyPress={handleEnterKey}
+                className='inputofforkify'
             />
+            <div className="menudiv">
+                
             {arrayofmenu.map((singlemenu) => (
                 <SingleMenu key={singlemenu.id} dataofsinglemenu={singlemenu} />
             ))}
+            </div>
         </div>
     );
 }

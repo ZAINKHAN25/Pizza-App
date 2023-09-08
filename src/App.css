@@ -120,6 +120,19 @@ footer button:hover{
     font-weight: bold;
 }
 
+.inputofforkify{
+    width: 80vw;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+
+.displayflex{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+}
+
 @media (max-width: 750px) {
     .menudiv{
         width: 100vw;
