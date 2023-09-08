@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fistHead{
+    margin-top: 10px;
+    color: #f0be1f;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+nav{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ourmenu{
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    border-left:1.5px solid transparent;
+    border-right:1.5px solid transparent;
+    width: max-content;
+    padding: 8px 5px;
+    margin: 10px auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    transition: all .5s;
+}
+
+.ourmenu:hover{
+    padding: 8px 10px;
+    border-right: 1.7px solid black;
+    border-left: 1.7px solid black;
+    border-top:1.5px solid transparent;
+    border-bottom:1.5px solid transparent;
+}
+
+.paraofheader{
+    font-size: large;
+}
+
+.singlemenudiv{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    margin: 10px 15px;
+    position: relative;
+}
+
+.menudiv{
+    width: 80vw;
+    display:flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    justify-content: center;
+}
+
+.imagediv img{
+    width: 130px;
+    height: 130px;
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.likesofdiv{
+    position: absolute;
+    bottom: 10px;
+}
+
+.headingofdiv{
+    font-weight: 700;
+    font-size: large;
+    font-family: 'Courier New';
+    margin-bottom: 5px;
+}
+
+.textcontentofdiv{
+    width: 35%;
+    word-wrap: break-word;
+}
+
+.descriptionofdiv{
+    height: 50px;
+    margin-bottom: 50px;
+    overflow:hidden ;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer div{
+    margin: 15px auto 10px auto;
+    text-align: center;
+}
+
+
+footer button{
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f0be1f;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    transition: all .3s;
+    border: 2px solid #f0be1f;
+}
+
+footer button:hover{
+    border: 2px solid #cfa416;
+    color: #cfa416;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+@media (max-width: 750px) {
+    .menudiv{
+        width: 100vw;
+    }
+}
+
+@media (max-width: 610px) {
+    .singlemenudiv{
+        width: 100vw;
+    }
+}
